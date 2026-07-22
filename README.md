@@ -57,9 +57,11 @@ Plus two birthday video clips.
 
 ## Little touches to notice
 
-- **Tap to open** — the site opens like a gift; that tap also starts a soft
-  music-box melody (generated live in the browser — no audio file needed).
-- **Music button** (bottom-right) — mute/unmute the melody any time.
+- **Tap to open** — the site opens like a gift; that tap also starts the
+  soundtrack (*Yeh Vaada Raha*), fading in softly on a loop.
+- **Music button** (bottom-right) — mute/unmute the song any time.
+  To use a different track, drop it in `public/media/` and change `SONG`
+  in `components/MusicBox.jsx`.
 - **Tap anywhere** — little hearts bloom wherever you click or touch.
 - **The finale** — a heart traces itself in the sky above her, over the real
   cloud-heart in the Nubra photo.

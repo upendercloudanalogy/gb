@@ -18,7 +18,11 @@ export default function IntroGate() {
       {!open && (
         <motion.button
           type="button"
-          onClick={() => setOpen(true)}
+          onClick={() => {
+            // dispatched inside the click gesture so the music-box may start
+            window.dispatchEvent(new Event("gift-open"));
+            setOpen(true);
+          }}
           aria-label="Open"
           initial={{ opacity: 1 }}
           exit={{ opacity: 0, scale: 1.15, filter: "blur(14px)" }}

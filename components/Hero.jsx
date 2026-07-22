@@ -55,6 +55,11 @@ export default function Hero({ hero }) {
         <div className="absolute inset-0 bg-gradient-to-b from-plum-950/70 via-plum-900/80 to-plum-950" />
       </motion.div>
 
+      {/* soft drifting aurora glow */}
+      <div className="pointer-events-none absolute inset-0 z-0 flex items-center justify-center">
+        <div className="aurora h-[70vmin] w-[90vmin] opacity-70" />
+      </div>
+
       <motion.div
         style={{ y: contentY, opacity: contentOpacity }}
         variants={container}
@@ -64,10 +69,10 @@ export default function Hero({ hero }) {
       >
         <motion.p
           variants={item}
-          className="mb-6 flex items-center justify-center gap-3 text-xs uppercase tracking-[0.4em] text-cream/55 sm:text-sm"
+          className="mb-6 flex items-center justify-center gap-3 text-[10px] uppercase tracking-[0.3em] text-cream/55 sm:text-sm sm:tracking-[0.4em]"
         >
-          <span className="hairline w-10" /> a farewell, and every good wish{" "}
-          <span className="hairline w-10" />
+          <span className="hairline hidden w-10 sm:block" /> a farewell, and every good wish
+          <span className="hairline hidden w-10 sm:block" />
         </motion.p>
 
         <motion.h1
