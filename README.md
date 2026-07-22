@@ -55,6 +55,17 @@ Open `lib/content.js`. The name shows up as `hero.name` (currently
 
 Plus two birthday video clips.
 
+## Little touches to notice
+
+- **Tap to open** — the site opens like a gift; that tap also starts a soft
+  music-box melody (generated live in the browser — no audio file needed).
+- **Music button** (bottom-right) — mute/unmute the melody any time.
+- **Tap anywhere** — little hearts bloom wherever you click or touch.
+- **The finale** — a heart traces itself in the sky above her, over the real
+  cloud-heart in the Nubra photo.
+- **"Release a wish"** — at the very end, tap it to send hearts and paper
+  lanterns drifting up into the night. Tap as many times as you like.
+
 Made by hand, with a good heart. 🌸
 # gb
 # gb
